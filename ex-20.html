@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Form: Labels| Inputs | Textarea</title>
+        <!-- & Link to CSS -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <!-- & Overall concepts learned:
+        ~ <form> & <input> elements accept and process user input
+        ~ <input> elements have various types -> such as numbers, checkboxes, and radio
+            ~ can also enter information for dates or color in the <input> element
+        ~ <textarea> element is for longer text input
+        ~ <label> element helps organize a form
+        ~ Forms have different ways of validating user input, including requiring certain information to be submitted
+        -->
+        <form action="">
+            <h1>This is a simple form</h1>
+            <!-- ~ Label and input for text type -->
+            <label for="">Text:</label>
+            <input
+                type="text"
+                minlength="3"
+                maxlength="20"
+                placeholder="Text here"
+            />
+            <br />
+            <br />
+
+            <!-- ~ Label and input for number type -->
+            <label for="">Number: </label>
+            <input
+                type="number"
+                min="0"
+                max="15"
+            />
+            <br />
+            <br />
+
+            <!-- ~ Label and input for checkbox type -->
+            <h2>Favorite types of shows to watch (checkbox attribute):</h2>
+            <input
+                type="checkbox"
+                name=""
+            />
+            <label for="">Anime</label>
+            <br />
+            <br />
+
+            <input
+                type="checkbox"
+                name=""
+            />
+            <label for="">K-Drama</label>
+            <br />
+            <br />
+
+            <input
+                type="checkbox"
+                name=""
+            />
+            <label for="">Ancient C-Drama</label>
+            <br />
+            <br />
+
+            <input
+                type="checkbox"
+                name=""
+            />
+            <label for="">C-Drama</label>
+            <br />
+            <br />
+
+            <!-- ~ Textarea -->
+            <label for="">Textarea: </label>
+            <textarea
+                name=""
+                id="data-entry"
+                rows="2"
+                cols="20"
+                placeholder="Please enter details here"
+            ></textarea>
+            <br />
+            <br />
+
+            <!-- ~ Label and input for email type and it is required -->
+            <label for="">Email: </label>
+            <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Email: your@self.com"
+                required
+            />
+            <br />
+            <br />
+
+            <!-- ~ Label nad input for password and it is required -->
+            <label for="">Password: </label>
+            <input
+                type="password"
+                name=""
+                id=""
+                placeholder="Password here"
+                required
+            />
+            <br />
+            <br />
+
+            <!-- ~Input to submit the form -->
+            <input
+                type="submit"
+                value="Please submit the Form!!"
+                required
+            />
+        </form>
+    </body>
+</html>

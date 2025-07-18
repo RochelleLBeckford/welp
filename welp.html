@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Document</title>
+        <!-- & Link CSS file -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <!-- & Building a Form page for a new website called "Welp!"
+        ~ it will be a review site like Yelp that will be reviwing anything from books to film to public parks
+        -->
+        <form action="">
+            <h1>Welp!:A review site for absolutely anything!</h1>
+
+            <!-- & Label and input for text -> for reviewer's first name -->
+            <label for="">First Name: </label>
+            <input
+                type="text"
+                id="firstName"
+                placeholder="Please enter First Name"
+                minlength="2"
+                maxlength="30"
+                required
+            />
+            <br /><br />
+
+            <!-- & Label & input for text -> for last name -->
+            <label for="">Last Name: </label>
+            <input
+                type="text"
+                id="lastName"
+                placeholder="Please enter Last Name"
+                minlength="2"
+                maxlength="30"
+                required
+            />
+            <br /><br />
+
+            <!-- & Label and input for text -> for a nickname -->
+            <label for="">Preferred Name or Nickname: </label>
+            <input
+                type="text"
+                id="nickname"
+                placeholder="Please enter preffered name or nickname (optional)"
+                minlength="2"
+                maxlength="30"
+            />
+            <br /><br />
+
+            <!-- & Label and input for text -> asking what you are reviewing -->
+            <label for="">The name of what you are reviewing: </label>
+            <input
+                type="text"
+                id="reviewName"
+                minlength="3"
+                maxlength="50"
+                placeholder="Please enter the film name, book title, etc.."
+                required
+            />
+            <br /><br />
+
+            <!-- & Label and input for radio -> asking the reviewer if they would try or watch, or read this again -->
+            <h2>Would you read, watch, or try this again?</h2>
+            <input
+                type="radio"
+                name="option"
+                id="tryAgain"
+            />
+            <label for="">Yes</label>
+            <br />
+
+            <input
+                type="radio"
+                name="option"
+                id="tryAgain"
+            />
+            <label for="">No</label>
+            <br />
+
+            <input
+                type="radio"
+                name="option"
+                id="tryAgain"
+            />
+            <label for="">Maybe</label>
+            <br />
+            <br />
+
+            <!-- & Label & input for numbers -> offer a rating for what you are revieing -->
+            <label for="">Rating (1 out 5): </label>
+            <input
+                type="number"
+                min="1"
+                max="5"
+                required
+            />
+            <br /><br />
+
+            <!-- & Textarea -> revierwer can write comments here -->
+            <label for="">Comments: </label>
+            <textarea
+                id="data-entry"
+                rows="3"
+                cols="30"
+                placeholder="Please enter comments about what it is that you are reviewing..."
+            ></textarea>
+            <br /><br />
+
+            <!-- & Label & input for submit -> Submit the form -->
+            <input
+                type="submit"
+                value="Please Submit the Form!!!"
+            />
+        </form>
+    </body>
+</html>

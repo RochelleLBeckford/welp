@@ -1,0 +1,89 @@
+* {
+    background-color: #f0bec9;
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 3px;
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+
+label {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 3px;
+    font-size: 15px;
+}
+
+/* & Change the color for placeholder */
+::placeholder {
+    color: whitesmoke;
+    background-color: #b166ff;
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: #cdd3f6;
+    color: #b166ff;
+    font-size: 15px;
+}
+
+input[type="number"] {
+    background-color: #b166ff;
+    color: whitesmoke;
+    font-size: 15px;
+    width: 10%;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    accent-color: #b166ff;
+}
+
+#data-entry {
+    /* ~ this is for textarea */
+    background-color: #cdd3f6;
+    color: #b166ff;
+    font-size: 15px;
+}
+
+input[type="email"] {
+    background-color: #cdd3f6;
+    color: #b166ff;
+    font-size: 15px;
+}
+
+input[type="password"] {
+    background-color: #cdd3f6;
+    color: #b166ff;
+    font-size: 15px;
+}
+
+/* & Change the color for the submit button */
+input[type="submit"] {
+    background-color: #b166ff;
+    color: whitesmoke;
+}
+
+#firstName {
+    width: 50%;
+}
+
+#lastName {
+    width: 50%;
+}
+
+#nickname {
+    width: 50%;
+}
+
+#reviewName {
+    width: 50%;
+}
+
+#tryAgain {
+    accent-color: #b166ff;
+}
